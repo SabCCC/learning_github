@@ -74,7 +74,3 @@ final_vector = loaded_vectorizer.transform([final_tweet])
 #prediction
 final_result = loaded_model.predict(final_vector)
 print(list(final_result)[0])
-
-
-#new code
-print("this is Sabhyeh")
